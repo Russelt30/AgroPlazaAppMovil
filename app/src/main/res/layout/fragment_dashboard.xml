@@ -32,27 +32,26 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="269dp"
+                android:layout_width="326dp"
                 android:layout_height="261dp"
                 android:src="@drawable/img_cargando" />
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="277dp"
+                android:layout_width="329dp"
                 android:layout_height="36dp"
                 android:text="TextView" />
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_width="286dp"
+                android:layout_width="327dp"
                 android:layout_height="61dp"
                 android:text="TextView" />
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="137dp"
-                android:layout_height="68dp"
-                android:text="Button" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
 
         </LinearLayout>
     </LinearLayout>
